@@ -46,21 +46,26 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-4">
+                <div class="col">
                     Welcome,
                     <h1 class="display-4">IT Case Study</h1>
                     <p class="lead">
                         Study Kasus IT PT Berkat Cipta Logistik
                     </p>
-                    <input type="text" class="form-control" placeholder="Contoh 6285736003075..." id="nomor" />
-                    <p class="font-weight-light">
-                        Pastikan nomor WA sudah benar seperti contoh
-                    </p>
-                    <input type="text" class="form-control mb-3" placeholder="Ketik Pesan..." id="pesan" />
+                    <div class="form-group row ml-1">
+                        <div class="col-xs-3">
+                            <input type="text" class="form-control panjang" placeholder="Contoh 6285736003075..." id="nomor" />
+                            <p class="font-weight-light">
+                                Pastikan nomor WA sudah benar seperti contoh
+                            </p>
+                            <input type="text" class="form-control mb-3" placeholder="Ketik Pesan..." id="pesan" />
 
-                    <button type="button" class="btn btn-primary" onclick="ambilPesan();">
-              Kirim
-            </button>
+                            <button type="button" class="btn btn-primary" onclick="ambilPesan();">
+                      Kirim
+                    </button>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,16 +87,16 @@
     <section id="profile">
         <div class="container">
             <div class="row mb-3">
-                <div class="col">
+                <div class="col-sm">
                     <h2>Profile</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
-                    <img src="img/programmer.jpg" width="500" alt="">
+                <div class="col-sm">
+                    <img src="img/programmer.jpg" class="img-fluid" width="500" alt="Responsive image">
 
                 </div>
-                <div class="col-6">
+                <div class="col-sm">
                     <br> Hello, I'm
                     <h5 class="display-4"> Saiful Bahri Irfanto</h5>
                     <p class="lead">
@@ -100,19 +105,19 @@
 
                     <table cellpadding="10">
                         <tr>
-                            <td><img src="img/email.png" height="30" width="30"></td>
+                            <td><img src="img/email.png" class="img-fluid" height="30" width="30"></td>
                             <td>bahri.saiful93@gmail.com</td>
                         </tr>
                         <tr>
-                            <td><img src="img/tel.png" height="30" width="30"></td>
+                            <td><img src="img/tel.png" class="img-fluid" height="30" width="30"></td>
                             <td>085736003075</td>
                         </tr>
                         <tr>
-                            <td><img src="img/alm.png" height="30" width="30"></td>
+                            <td><img src="img/alm.png" class="img-fluid" height="30" width="30"></td>
                             <td>Slorok 03/03, Desa Slorok Kec. Garum Kab. Blitar</td>
                         </tr>
                         <tr>
-                            <td> <img src="img/git.svg" height="30" width="30"> </td>
+                            <td> <img src="img/git.svg" class="img-fluid" height="30" width="30"> </td>
                             <td><a href="https://github.com/Saiful-Bahri-Irfanto">
                                 https://github.com/Saiful-Bahri-Irfanto</a></td>
                         </tr>
@@ -126,7 +131,7 @@
     <section id="skills">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-10 mx-auto ">
+                <div class="col-sm-10 mx-auto ">
                     <h2>Programming Skill</h2>
                     <div class="container ">
                         <div class="row ">
@@ -151,16 +156,16 @@
                                         <li>Experincein Microsoft office like word, excel and power point</li>
                                 </ul>
 
-                                <table class="sosmed mb-5 " cellpadding="10 ">
+                                <table class="img-fluid sosmed mb-5 " cellpadding="10 ">
                                     <tr>
-                                        <td><img src="img/bahasa/html.png " height="40 " width="40 "></td>
-                                        <td><img src="img/bahasa/css.png " height="40 " width="40 "></td>
-                                        <td><img src="img/bahasa/js.jpg " height="40 " width="40 "></td>
-                                        <td><img src="img/bahasa/php.svg " height="40 " width="40 "></td>
-                                        <td><img src="img/bahasa/bootrap.png " height="40 " width="40 "></td>
-                                        <td><img src="img/bahasa/lara.png " height="40 " width="40 "></td>
-                                        <td><img src="img/bahasa/vue.png " height="40 " width="40 "></td>
-                                        <td><img src="img/bahasa/mysql.png " height="40 " width=" "></td>
+                                        <td><img src="img/bahasa/html.png " class="img-fluid" height=" " width="40 "></td>
+                                        <td><img src="img/bahasa/css.png " class="img-fluid" height=" " width="40 "></td>
+                                        <td><img src="img/bahasa/js.jpg " class="img-fluid" height=" " width="40 "></td>
+                                        <td><img src="img/bahasa/php.svg " class="img-fluid" height=" " width="40 "></td>
+                                        <td><img src="img/bahasa/bootrap.png " class="img-fluid" height=" " width="40 "></td>
+                                        <td><img src="img/bahasa/lara.png " class="img-fluid" height=" " width="40 "></td>
+                                        <td><img src="img/bahasa/vue.png " class="img-fluid" height=" " width="40 "></td>
+                                        <td><img src="img/bahasa/mysql.png " class="img-fluid" height=" " width="40 "></td>
                                     </tr>
                                 </table>
                             </div>
@@ -180,12 +185,12 @@
                 <div class="col-lg-10 mx-auto ">
                     <h2>Education</h2>
                     <br>
-                    <div class="container ">
+                    <div class="container-fluid ">
                         <div class="row ">
-                            <div class="col-sm-2 ">
+                            <div class="col-sm-2 mb-3">
                                 <img src="img/logoSTMIK.png " height="100 " width=" ">
                             </div>
-                            <div class="col-sm-10 logo ">
+                            <div class="col-sm-10 logo">
                                 <p>
                                     <b> Sekolah Tinggi Manajemen Informatika dan Komputer Tasikmalaya (2013 - 2017)
                                 </b>
@@ -198,18 +203,18 @@
                         </div>
                     </div>
                     <br>
-                    <div class="container ">
-                        <div class="row ">
-                            <div class="col-sm-9 logo ">
-                                <p>
-                                    <b>Sekolah Menengah Atas Negeri 01 Sutoajayan </b> <br> 2009 - 2012 <br> Ilmu Pengetahuan Sosial </p>
-                            </div>
-                            <div class="col-sm-3 ">
-                                <img src="img/SMAN1Sutojayan.png " height="100 " width=" ">
 
-                            </div>
+                    <div class="row ">
+                        <div class="col-sm-9 logo ">
+                            <p>
+                                <b>Sekolah Menengah Atas Negeri 01 Sutoajayan </b> <br> 2009 - 2012 <br> Ilmu Pengetahuan Sosial </p>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <img src="img/SMAN1Sutojayan.png " height="100 " width=" ">
+
                         </div>
                     </div>
+
                     <br>
                     <div class="container ">
                         <div class="row ">

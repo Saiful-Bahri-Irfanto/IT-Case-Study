@@ -20,6 +20,16 @@ input {
     opacity: 80%;
 }
 
+.form-control panjang {
+    width: 500px;
+}
+
 .footer {
     background-color: black;
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        width: auto;
+    }
 }
