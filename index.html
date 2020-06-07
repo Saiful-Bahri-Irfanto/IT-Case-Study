@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Saiful Bahri Irfanto</title>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">IT CASE STUDY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#educations">Educations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-4">
+                    Welcome,
+                    <h1 class="display-4">IT Case Study</h1>
+                    <p class="lead">
+                        Study Kasus IT PT Berkat Cipta Logistik
+                    </p>
+                    <input type="text" class="form-control" placeholder="Contoh 6285736003075..." id="nomor" />
+                    <p class="font-weight-light">
+                        Pastikan nomor WA sudah benar seperti contoh
+                    </p>
+                    <input type="text" class="form-control mb-3" placeholder="Ketik Pesan..." id="pesan" />
+
+                    <button type="button" class="btn btn-primary" onclick="ambilPesan();">
+              Kirim
+            </button>
+                </div>
+            </div>
+        </div>
+        <script>
+            function ambilPesan() {
+                // Selecting the input element and get its value
+                var nomorWa = document.getElementById("nomor").value;
+                var linkwa = "https://wa.me/" + nomorWa;
+                var wa = "?text=";
+                var isiPesan = document.getElementById("pesan").value;
+
+                // Displaying the value
+                window.location.href = linkwa + wa + isiPesan;
+            }
+        </script>
+    </div>
+
+
+    <section id="profile">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <h2>Profile</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="img/programmer.jpg" width="500" alt="">
+
+                </div>
+                <div class="col-6">
+                    <br> Hello, I'm
+                    <h5 class="display-4"> Saiful Bahri Irfanto</h5>
+                    <p class="lead">
+                        <h4> Web Developer</h4>
+                    </p> <br>
+
+                    <table cellpadding="10">
+                        <tr>
+                            <td><img src="img/email.png" height="30" width="30"></td>
+                            <td>bahri.saiful93@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/tel.png" height="30" width="30"></td>
+                            <td>085736003075</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/alm.png" height="30" width="30"></td>
+                            <td>Slorok 03/03, Desa Slorok Kec. Garum Kab. Blitar</td>
+                        </tr>
+                        <tr>
+                            <td> <img src="img/git.svg" height="30" width="30"> </td>
+                            <td><a href="https://github.com/Saiful-Bahri-Irfanto">
+                                https://github.com/Saiful-Bahri-Irfanto</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10 mx-auto ">
+                    <h2>Programming Skill</h2>
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-12 ">
+                                <p class="lead ">
+                                    I have some programming skill and analytic. I have also troubleshooting skill and created technology innovation of problems
+                                </p>
+                                <ul>
+                                    <p>
+                                        <li>Experince web design using Bootrap and Vue.js</li>
+                                        <li>Experince web develop using Laravel</li>
+                                        <li>Experince DBMS using MySQL</li>
+                                        <li>Good understanding data mining using Python</li>
+                                    </p>
+                                </ul>
+                                <h4>Other Skill</h4>
+                                <ul>
+                                    <p>
+                                        <li>Experince graphic design using Adobe Photoshop and Corel Draw</li>
+                                        <li>Good understanding video editing using Adobe Premiere</li>
+                                        <li>Good understanding audio editing using FL Studio</li>
+                                        <li>Experincein Microsoft office like word, excel and power point</li>
+                                </ul>
+
+                                <table class="sosmed mb-5 " cellpadding="10 ">
+                                    <tr>
+                                        <td><img src="img/bahasa/html.png " height="40 " width="40 "></td>
+                                        <td><img src="img/bahasa/css.png " height="40 " width="40 "></td>
+                                        <td><img src="img/bahasa/js.jpg " height="40 " width="40 "></td>
+                                        <td><img src="img/bahasa/php.svg " height="40 " width="40 "></td>
+                                        <td><img src="img/bahasa/bootrap.png " height="40 " width="40 "></td>
+                                        <td><img src="img/bahasa/lara.png " height="40 " width="40 "></td>
+                                        <td><img src="img/bahasa/vue.png " height="40 " width="40 "></td>
+                                        <td><img src="img/bahasa/mysql.png " height="40 " width=" "></td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="educations">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-lg-10 mx-auto ">
+                    <h2>Education</h2>
+                    <br>
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-2 ">
+                                <img src="img/logoSTMIK.png " height="100 " width=" ">
+                            </div>
+                            <div class="col-sm-10 logo ">
+                                <p>
+                                    <b> Sekolah Tinggi Manajemen Informatika dan Komputer Tasikmalaya (2013 - 2017)
+                                </b>
+                                    <br> S-1 Teknik Informatika <br>
+                                    <a href="https://drive.google.com/open?id=1cK5hXTnXjDJaE1mK9QZCCJGqZk8daWLv ">
+                                    GPA
+                                    3.40 </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-9 logo ">
+                                <p>
+                                    <b>Sekolah Menengah Atas Negeri 01 Sutoajayan </b> <br> 2009 - 2012 <br> Ilmu Pengetahuan Sosial </p>
+                            </div>
+                            <div class="col-sm-3 ">
+                                <img src="img/SMAN1Sutojayan.png " height="100 " width=" ">
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-12 ">
+                                <h4> Experince </h4>
+
+                                <div class="container ">
+                                    <div class="row ">
+                                        <div class="col-sm ">
+                                            <h6>Employemnt</h6>
+                                            <p>MAN 2 Blitar as Multimedia Teacher 2018 - 2019</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="container ">
+                                    <div class="row ">
+                                        <div class="col-sm mb-5 ">
+                                            <h6>Organizations</h6>
+                                            <p>
+                                                <p>UKM Seni Musik STMIK Tasikmalaya 2013-2015 <br> Extra School SMAN 01 Sutojayan 2009 2010 </p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class="col-lg-10 mx-auto ">
+                    <h2>Certifications</h2>
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-3 sertifikasi ">
+                                1. August 2019
+                            </div>
+                            <div class="col-sm-9 sertifikasi ">
+                                <p>Digital Talent Schoolarship Kementerian Komunikasi dan Informatika <br> Universitas Muhammadiyah Malang <br>
+                                    <a href="https://drive.google.com/open?id=1KT8UT_mqTIE2sPHGcCqxbie_i4xIvdJW ">Machine
+                                Learning </a>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-3 ">
+                                2. Juni 2019
+                            </div>
+                            <div class="col-sm-9 ">
+                                <p>Lembaga Sertifikasi Profesi Teknologi Informasi dan Telekomunikasi Surabaya <br>
+                                    <a href="https://drive.google.com/open?id=1ZrY8tjYT6CFNJHH2mioQz0kc-i7XFbiZ ">Junior
+                                Programming </a>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-3 ">
+                                3. Juni 2018
+                            </div>
+                            <div class="col-sm-9 ">
+                                <p>Unit Pelaksana Teknis Pelatihan Kerja Balai Latihan Kerja Singosari Malang <br>
+                                    <a href="https://drive.google.com/open?id=1SHtlrSzCv4TwpwlXd6JstTfS1pW60T8e ">Dynamic
+                                Web Program
+                            </a><br>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-3 ">
+                                4. Mei 2018
+                            </div>
+                            <div class="col-sm-9 ">
+                                <p>Lembaga Sertifikasi Profesi Teknologi Informasi dan Telekomunikasi Surabaya <br>
+                                    <a href="https://drive.google.com/open?id=1PkzXM6Sii8O6TYPeER8tR08lB9gaaIQ4 ">Junior
+                                Multimedia </a>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="container ">
+                        <div class="row ">
+                            <div class="col-sm-3 ">
+                                5. Mei 2018
+                            </div>
+                            <div class="col-sm-9 mb-5 ">
+                                <p>Unit Pelaksana Teknis Pelatihan Kerja Balai Latihan Kerja Kediri <br>
+                                    <a href="https://drive.google.com/open?id=1A_ULYBxejnEBXqomJqBiWC5qO_u3t9Nc ">Multimedia</a>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer ">
+        <p class="text-white text-center p-3 ">copyright@2020</p>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>

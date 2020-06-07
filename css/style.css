@@ -1,0 +1,25 @@
+nav {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.jumbotron {
+    background-image: url(../img/daku.png);
+    background-size: cover;
+    height: 640px;
+    filter: grayscale(80%);
+    color: aliceblue;
+    padding-top: 120px;
+}
+
+section {
+    padding: 75px 0;
+}
+
+input {
+    opacity: 80%;
+}
+
+.footer {
+    background-color: black;
+}
